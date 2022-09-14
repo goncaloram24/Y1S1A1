@@ -28,4 +28,12 @@ plt.title("Axes aren't comparable")
 plt.xlabel("Test 1 Grades")
 plt.ylabel("Test 2 Grades")
 
+plt.figure(3)
+
+plt.scatter(test_1_grades, test_2_grades)
+plt.title("Axes aren't comparable")
+plt.xlabel("Test 1 Grades")
+plt.ylabel("Test 2 Grades")
+plt.axis("equal")
+
 plt.show()
